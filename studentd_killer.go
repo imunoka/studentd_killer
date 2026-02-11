@@ -22,10 +22,6 @@ func main() {
 			killProcess(pid)
 		}
 
-//		if len(pids) == 0 {
-//			fmt.Print(".")
-//		}
-
 		time.Sleep(1 * time.Millisecond)
 	}
 }
